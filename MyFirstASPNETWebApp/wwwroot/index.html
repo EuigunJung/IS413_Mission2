@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<!-- Euigun Jung IS 413 Mission 2  -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--A webpage title with an icon-->
+    <title>IS413 Euigun Jung </title>
+    <link rel="icon" href="https://esquilo.io/png/thumb/ybgP8xjbNKDyg0w-Smile-Emoji-PNG-Photos.png"
+          type="image/x-icon">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!-- Header that lists your preferred name -->
+
+    <h1> Welcome to Euigun (Jake)'s Web Page! </h1>
+    <br />
+
+    <!-- A picture of yourself doing something you enjoy -->
+    <img src="img/Screenshot 2022-01-17 202614.jpg" />
+    <p1>  This is me enjoying pizza at MOZZ. I love eating and cooking food. Bon Appétit!  </p1>
+    <br /> <br />
+    <h2>Hi--!</h2>
+
+    <!-- A paragraph on what you hope to get out of this IS 413 class -->
+    <p>
+        * Two years ago, I took IS303 which I learned how to build a website using javascript. Although I forgot most of the parts, I am looking forward to learning and applyng
+        new crazy skills to build my own websites. I am very excited to have this class throughout the semester!
+    </p>
+    <br />
+
+    <!-- A list of the Top #3 jobs you are most interested in pursuing when you graduate -->
+    <h4> Here is a list of my top 3 jobs that I am most interested after graduation: </h4>
+    <ul>
+        <li>#1 Restaurant Owner</li>
+        <li>#2 Project Manager</li>
+        <li>#3 Data Analyst</li>
+    </ul>
+    <br />
+    <!-- A "Grade Calculator" form that takes as input a percentage scored for each grade
+    category listed in the syllabus  -->
+    <h4> Calculate your final grade for IS413!  </h4>
+    <p>Enter how much percentage (0-100) you scored for each criteria. Just put the numbers without percentage % sign. (Ex: 0, 50, 100)</p>
+    <form>
+        <div class="app">
+            <div class="form-group">
+
+                <input type="text"
+                       class="form-control"
+                       placeholder="Assignments"
+                       id="assignments" />
+            </div>
+            <div class="form-group">
+                <input type="text"
+                       class="form-control"
+                       placeholder="Group Project"
+                       id="group_project" />
+            </div>
+            <div class="form-group">
+                <input type="text"
+                       class="form-control"
+                       placeholder="Quizzes"
+                       id="quizzes" />
+            </div>
+            <div class="form-group">
+                <input type="text"
+                       class="form-control"
+                       placeholder="Exams"
+                       id="exams" />
+            </div>
+            <div class="form-group">
+                <input type="text"
+                       class="form-control"
+                       placeholder="INTEX"
+                       id="intex" />
+            </div>
+            <div>
+                <input type="button"
+                       value="Calculate Final Grade"
+                       class="form-button"
+                       onclick="calculate()" />
+            </div>
+        </div>
+        <!-- for showing the result-->
+        <showdatatxt>
+            <p id="showdata"></p>
+        </showdatatxt>
+    </form>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

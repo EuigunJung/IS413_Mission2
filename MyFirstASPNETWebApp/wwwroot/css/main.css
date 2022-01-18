@@ -1,0 +1,48 @@
+﻿/*Include at least one change to the styling using your own CSS file.*/
+
+
+h1 {
+    text-align: center;
+    color: indianred;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+
+h4 {
+    text-align: left;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+
+showdatatxt {
+    color: darkred;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
